@@ -8,8 +8,17 @@ September 25, 2017
 x = set([1,2,3,4]) # A partir de una lista
 print(x)
 
-y = set((1,2,3,4)) # A partir de una tupla
+y = set((1,2,3,4,4)) # A partir de una tupla
 print(y)
+
+# Creacion de conjunto
+
+w={1,2,3,4,"Daniel"}
+
+"Daniel" in w
+
+"Carlos" not in w
+
 
 
 # Operaciones con conjuntos
@@ -43,3 +52,11 @@ x = set([1,2,3,4])
 y = set([3,4,5,6])
 z = x - y 
 print(z)
+
+#Convertir una lista a un conjunto y luego a una lista
+
+l=[1,2,3,3,4,4,4,5,6,6,6]
+l=list(set(l))
+print(l)
+
+

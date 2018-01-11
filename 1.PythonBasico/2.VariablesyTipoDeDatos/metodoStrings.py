@@ -33,7 +33,8 @@ x = float("126.89")
 
 # Busquedas
 
-# Metodo find, recibe la cadena a buscar y devuelve la posicion del primer caracter en la primera aparicion, si no encuentra regresa -1
+# Metodo find, recibe la cadena a buscar y devuelve la posicion 
+# del primer caracter en la primera aparicion, si no encuentra regresa -1
 x = "Ferrocarril"
 posicion = x.find("rr")
 print(posicion)
@@ -70,3 +71,5 @@ print("El %s es la %s tradicional %s" % ("tequila", "bebida", "mexicana") )
 print("El {0} es la {1} tradicional {2}".format("tequila", "bebida", "mexicana"))
 
 print("El {bebida} es la {palabra} tradicional {pais}".format(bebida="tequila", palabra="bebida", pais="mexicana"))
+
+

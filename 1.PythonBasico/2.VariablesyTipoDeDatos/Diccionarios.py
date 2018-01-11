@@ -5,7 +5,7 @@ September 25, 2017
 "Diccionarios"
 """
 # Creacion de diccionarios
-x = {}
+x = {}  #Diccionario Vacio
 x['red'] = "rojo"
 x['green'] = "verde"
 x["blue"] = "azul"
@@ -41,3 +41,19 @@ print(valores)
 
 # Obtener pares clave-valor del diccionario como una lista de tuplas
 print(y.items())
+
+
+colores = {'Amarillo':'Yellow', 'Rojo':'Red','Negro':'Black','Naranja':'Orange'}
+
+del(colores['Amarillo'])
+
+print(colores)
+
+for color in colores:
+	print(color)
+
+for color in colores:
+	print(colores[color])
+
+for c1,c2 in colores.items():
+	print(c1,c2)
